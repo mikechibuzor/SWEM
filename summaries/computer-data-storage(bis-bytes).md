@@ -2,7 +2,7 @@
 
 ## Bit
 A bit is the smallest storage possible in computers that can have two possible states, 'ON' or 'OFF';
-Puting this in computer terms, these states can either be '1' or '0'.
+Putting this in computer terms, these states can either be '1' or '0'.
 
 ## Byte
 A byte is a combination of 8 bits. The number value each of the bit in a byte can hold grows from right to left.
@@ -12,9 +12,9 @@ A byte is a combination of 8 bits. The number value each of the bit in a byte ca
 The possible number hole we can represent using a single byte is 255. To get a number greater than 255, we can combine bytes.
 
 ## Signed Numbers Representation
-We can achieve the representation of a signed number by sacrificing the leftmoset numberhole in a byte.
+We can achieve the representation of a signed number by sacrificing the leftmost number hole in a byte.
 
-Example: To reprsent -35, we can achieve this by following these steps.
+Example: To represent -35, we can achieve this by following these steps.
 
 - Step 1:
 Get the binary representation of 35
@@ -33,7 +33,7 @@ therefore, -35 = 11011101
 ## Representing Characters
 Since we already know how to store numbers, we can store strings or characters by storing many numbers.
 For this, an ASCII table was the first table defined to help us achieve this.
-The ASCII table can only take one byte and for this reason, it has a size limitation as it can only take upto 128 characters.
+The ASCII table can only take one byte and for this reason, it has a size limitation as it can only take up to 128 characters.
 
 To solve the size limitation issue the ASCII table has, the UNICODE table was developed.
 
