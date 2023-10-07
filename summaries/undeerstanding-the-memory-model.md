@@ -14,7 +14,7 @@ This program is volatile and does not persist after the computer has been shut d
 
 ## Byte?
 We can see byte as the unit memory is measured in.
-The number we can represent using one byte is 256.
+The maximum number we can represent using one byte is 256.
 To represent characters, we map them with numbers. this is the basis for the ASCII table.
 
 ## Addresses
